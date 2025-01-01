@@ -7,7 +7,7 @@ container.className = 'container';
 
 // Membuat gambar
 const img = document.createElement('img');
-img.src = 'img/delta.png'; // Gantilah dengan URL gambar Anda
+img.src = 'delta.png'; // Gantilah dengan URL gambar Anda
 img.alt = 'Delta Image';
 container.appendChild(img);
 
