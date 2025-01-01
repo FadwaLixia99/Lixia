@@ -1,0 +1,64 @@
+/* Mengatur tampilan dasar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif; /* Font yang modern */
+    background-color: #224747; /* Warna latar yang lembut */
+    color: #f5f5f5; /* Warna teks yang kontras */
+}
+
+/* Mengatur tata letak utama */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; /* Pusatkan elemen secara vertikal */
+    padding: 20px;
+    text-align: center;
+}
+
+/* Gaya gambar */
+img {
+    width: 300px;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border: solid #333 5px;
+    border-radius: 10px; /* Membuat sudut gambar melengkung */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5); /* Bayangan gambar */
+    margin-bottom: 20px;
+}
+
+/* Gaya teks kutipan */
+.quote {
+    font-size: 1.5rem;
+    font-style: italic;
+    margin-bottom: 10px;
+    color: #e0ffff; /* Warna biru muda yang lembut */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Bayangan teks */
+}
+
+/* Gaya teks penulis */
+.author {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #ffdab9; /* Warna krem yang lembut */
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3); /* Bayangan teks */
+}
+
+/* Responsif untuk layar kecil */
+@media (max-width: 600px) {
+    .quote {
+        font-size: 1.2rem;
+    }
+
+    .author {
+        font-size: 1rem;
+    }
+
+    img {
+        width: 250px;
+    }
+}
