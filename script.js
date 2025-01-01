@@ -9,7 +9,7 @@ body.appendChild(heading);
 
 // Menambahkan elemen gambar
 const img = document.createElement('img');
-img.src = 'img/delta.png'; // Path gambar yang benar
+img.src = 'delta.png'; // Path gambar yang benar
 body.appendChild(img);
 
 // Menambahkan elemen body ke dalam html
